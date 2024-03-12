@@ -36,6 +36,15 @@ OrderAPI=>https://localhost:44311/swagger/index.html
 Inventory API=>https://localhost:44327/swagger/index.html
 
 
+
+download consul https://www.consul.io/
+
+command to run consul
+
+consul agent -dev
+
+url for consul http://localhost:8500/ui/dc1/services
+
 Parked Question
 
 Question-1

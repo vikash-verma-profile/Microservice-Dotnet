@@ -1,3 +1,4 @@
+using Common.Consul;
 using Common.Models.Models;
 using Inventory.Consumer;
 using Inventory.Interface;
@@ -84,7 +85,7 @@ builder.Services.AddAuthentication(x =>
         IssuerSigningKey = new SymmetricSecurityKey(key)
     };
 });
-
+builder.Services.AddConsulConfig(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -97,7 +98,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseConsul(builder.Configuration);
 app.MapControllers();
 
 app.Run();

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory", "Inventory\Inve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order", "Order\Order.csproj", "{B737DB08-8A17-419B-A2F2-83986A2A3A3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Models", "Common.Models\Common.Models.csproj", "{6242B8E6-BD46-4773-8B06-60CE9B6362B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Models", "Common.Models\Common.Models.csproj", "{6242B8E6-BD46-4773-8B06-60CE9B6362B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{E588385B-4A48-41B0-9D55-2CED77CB2188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{E588385B-4A48-41B0-9D55-2CED77CB2188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Consul", "Common.Consul\Common.Consul.csproj", "{E81D683C-69DF-4A07-A7F2-AD12E2A72857}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E588385B-4A48-41B0-9D55-2CED77CB2188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E588385B-4A48-41B0-9D55-2CED77CB2188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E588385B-4A48-41B0-9D55-2CED77CB2188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81D683C-69DF-4A07-A7F2-AD12E2A72857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81D683C-69DF-4A07-A7F2-AD12E2A72857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81D683C-69DF-4A07-A7F2-AD12E2A72857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81D683C-69DF-4A07-A7F2-AD12E2A72857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

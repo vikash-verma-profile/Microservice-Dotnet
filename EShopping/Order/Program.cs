@@ -1,3 +1,4 @@
+using Common.Consul;
 using Common.Models.Models;
 using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -76,6 +77,7 @@ builder.Services.AddAuthentication(x =>
         IssuerSigningKey = new SymmetricSecurityKey(key)
     };
 });
+builder.Services.AddConsulConfig(builder.Configuration);
 
 var app = builder.Build();
 
@@ -89,7 +91,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseConsul(builder.Configuration);
 app.MapControllers();
 
 app.Run();

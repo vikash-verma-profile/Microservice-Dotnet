@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pAP+Omnxa7w3sK8kj3IfANZzGZLP8LeSkr5CGBcLz1PyDnW57Sj5AlxEdwcajvbZdhT5M7uik3QQwkxRFnBmfw==",
+  "dgSpecHash": "rpD+cReCaZj9kOPP+jRK6YbeixwctrvjW0gLFs6J/qCOkC3mpEno81/sTzxJ9sluUI3DO5kjvdgSb3M7aEIFSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\consul\\1.7.14.1\\consul.1.7.14.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.25\\microsoft.aspnetcore.jsonpatch.6.0.25.nupkg.sha512",
@@ -16,6 +17,7 @@
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\ocelot\\23.1.0\\ocelot.23.1.0.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\ocelot.provider.consul\\23.1.0\\ocelot.provider.consul.23.1.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []

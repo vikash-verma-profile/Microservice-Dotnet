@@ -288,3 +288,9 @@ C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\b
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Common.Models.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Common.Models.pdb
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Consul.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Common.Consul.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Common.Consul.pdb

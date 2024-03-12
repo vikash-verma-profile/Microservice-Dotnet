@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Consul" Version="1.7.14.3" />
     <PackageReference Include="MassTransit" Version="8.0.13" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.27" />
@@ -25,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common.Consul\Common.Consul.csproj" />
     <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
   </ItemGroup>
 

@@ -9,10 +9,23 @@
       "ApiGateway/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
-          "Ocelot": "23.1.0"
+          "Ocelot": "23.1.0",
+          "Ocelot.Provider.Consul": "23.1.0"
         },
         "runtime": {
           "ApiGateway.dll": {}
+        }
+      },
+      "Consul/1.7.14.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.7.14.1",
+            "fileVersion": "1.7.14.1"
+          }
         }
       },
       "FluentValidation/11.8.0": {
@@ -115,6 +128,18 @@
           }
         }
       },
+      "Ocelot.Provider.Consul/23.1.0": {
+        "dependencies": {
+          "Consul": "1.7.14.1",
+          "Ocelot": "23.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Ocelot.Provider.Consul.dll": {
+            "assemblyVersion": "23.1.0.0",
+            "fileVersion": "23.1.0.0"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/4.7.1": {}
     }
   },
@@ -123,6 +148,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Consul/1.7.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JM1/sHsPhxTcawNKp0PaPRXeMqghjbn9L6lgPyNW6P5SnkcJ/rchQsHnDm8TlT51/ARX4bmboUzFRzU6arjSQQ==",
+      "path": "consul/1.7.14.1",
+      "hashPath": "consul.1.7.14.1.nupkg.sha512"
     },
     "FluentValidation/11.8.0": {
       "type": "package",
@@ -207,6 +239,13 @@
       "sha512": "sha512-BKDajPzNdqL4kSSq4u2Fj5h+8zpkDuH/FvNxnj3UwaUiPcRsjNBDPZmNY1KDzV8RtM0IbvmE/9qyOlGVdf7vAA==",
       "path": "ocelot/23.1.0",
       "hashPath": "ocelot.23.1.0.nupkg.sha512"
+    },
+    "Ocelot.Provider.Consul/23.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2YCQ7dJB335AmsoOCErFSCHMbyqtZ7uNhFWumFeYxJPeAWT+/QHXi8vbA4oG9EaVYmsCnNbWJ4QFDpFKvj1eQ==",
+      "path": "ocelot.provider.consul/23.1.0",
+      "hashPath": "ocelot.provider.consul.23.1.0.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/4.7.1": {
       "type": "package",

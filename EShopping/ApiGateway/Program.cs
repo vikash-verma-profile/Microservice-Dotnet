@@ -1,10 +1,10 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Ocelot.Provider.Consul;
 
+IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("Ocelot.json").Build();
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Configuration.AddJsonFile("Ocelot.json");
-builder.Services.AddOcelot(builder.Configuration);
+builder.Services.AddOcelot(configuration).AddConsul();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -27,5 +27,5 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.UseOcelot();
+app.UseOcelot().Wait();
 app.Run();

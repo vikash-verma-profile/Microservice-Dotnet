@@ -42,3 +42,6 @@ C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\obj\Debug\net6.0\ApiGateway.pdb
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\obj\Debug\net6.0\ApiGateway.genruntimeconfig.cache
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\obj\Debug\net6.0\ref\ApiGateway.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Ocelot_old.json
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Consul.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Ocelot.Provider.Consul.dll
