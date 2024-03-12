@@ -275,3 +275,6 @@ C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\b
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\obj\Debug\net6.0\Inventory.sourcelink.json

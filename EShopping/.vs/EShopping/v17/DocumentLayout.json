@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2029F816-B052-4FA7-BBA1-51206E6DEBA5}|Inventory\\Inventory.csproj|c:\\users\\level up solutions 1\\desktop\\dotnet-microservices\\eshopping\\inventory\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2029F816-B052-4FA7-BBA1-51206E6DEBA5}|Inventory\\Inventory.csproj|solutionrelative:inventory\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2029F816-B052-4FA7-BBA1-51206E6DEBA5}|Inventory\\Inventory.csproj|c:\\users\\level up solutions 1\\desktop\\dotnet-microservices\\eshopping\\inventory\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2029F816-B052-4FA7-BBA1-51206E6DEBA5}|Inventory\\Inventory.csproj|solutionrelative:inventory\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Inventory\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Inventory\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T06:00:22.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Inventory\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Inventory\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAAAJEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:52:04.681Z",
-              "EditorCaption": ""
             }
           ]
         }

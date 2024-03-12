@@ -19,6 +19,14 @@ namespace Inventory.Models
         public virtual DbSet<TblLogin> TblLogins { get; set; } = null!;
         public virtual DbSet<TblProduct> TblProducts { get; set; } = null!;
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Data Source=LEVEL-UP-SOLUTI;Initial Catalog=Eshopping;Integrated Security=True;Trust Server Certificate=True");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,13 +34,9 @@ namespace Inventory.Models
             {
                 entity.ToTable("tblLogin");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ID");
+                entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.Password).HasMaxLength(50);
-
-                entity.Property(e => e.Status).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Username).HasMaxLength(50);
             });

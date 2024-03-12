@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Inventory.Models;
 using Inventory.ViewModels;
+using Inventory.Interface;
 
 namespace Inventory.Controllers
 {
@@ -15,10 +16,12 @@ namespace Inventory.Controllers
     public class LoginController : ControllerBase
     {
         private readonly EshoppingContext _context;
+        private readonly IJWTManagerRepository _iJWTManagerRepository;
 
-        public LoginController(EshoppingContext context)
+        public LoginController(EshoppingContext context,IJWTManagerRepository iJWTManagerRepository)
         {
             _context = context;
+            _iJWTManagerRepository = iJWTManagerRepository;
         }
 
         // GET: api/Login
@@ -138,16 +141,13 @@ namespace Inventory.Controllers
         [HttpPost("get-token")]
         public async Task<IActionResult> GetToken(LoginViewModel login)
         {
-            if (String.IsNullOrEmpty(generateToken()))
+            var token = _iJWTManagerRepository.Authenticate(login);
+            if (!String.IsNullOrEmpty(token))
             {
-                return Ok(generateToken());
+                return Ok(new {Token= token });
             }
-            return NoContent();
+            return Unauthorized();
         }
 
-        private string generateToken()
-        {
-            return "";
-        }
     }
 }
