@@ -1,0 +1,3 @@
+Ef command to import database to code
+
+Scaffold-Dbcontext "Data Source=LEVEL-UP-SOLUTI;Initial Catalog=Eshopping;Integrated Security=True;Trust Server Certificate=True"  Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
