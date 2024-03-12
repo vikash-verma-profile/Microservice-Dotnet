@@ -1,11 +1,11 @@
 ﻿using Inventory.Interface;
-using Inventory.Models;
 using Inventory.ViewModels;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Linq;
+using Common.Models.Models;
 
 
 namespace Inventory.Repositories

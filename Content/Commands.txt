@@ -9,3 +9,38 @@ Scaffold-Dbcontext "Data Source=LEVEL-UP-SOLUTI;Initial Catalog=Eshopping;Integr
   "password": "123456",
   "status": 1
 }
+
+{
+  "userName": "vikash.verma@test.com",
+  "password": "123456"
+}
+
+
+{
+  "orderNumber": "Ord101",
+  "userId": 1,
+  "price": 339,
+  "paymentMode": 1,
+  "productId": 1,
+  "quantity": 1
+}
+for RabbitmQ
+https://masstransit.io/
+
+
+ApiGateway:-
+
+https://localhost:44381/
+
+OrderAPI=>https://localhost:44311/swagger/index.html
+Inventory API=>https://localhost:44327/swagger/index.html
+
+
+Parked Question
+
+Question-1
+Send a message from publisher and stop rabbitmq serivice and see if the message still persists or not
+send a message from publisher and second  service is down . WIll the message be read.
+Consumer should be 2 in above senerio's
+
+ 

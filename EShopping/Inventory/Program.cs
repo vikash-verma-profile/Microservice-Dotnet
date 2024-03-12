@@ -1,6 +1,8 @@
+using Common.Models.Models;
+using Inventory.Consumer;
 using Inventory.Interface;
-using Inventory.Models;
 using Inventory.Repositories;
+using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +14,22 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddMassTransit(x =>
+{
+    x.AddConsumer<OrderConsumer>();
+    x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(config =>
+    {
+        config.Host(new Uri("rabbitmq://localhost/"), h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+        config.ReceiveEndpoint("OrderQueue", ep =>
+        {
+            ep.ConfigureConsumer<OrderConsumer>(provider);
+        });
+    }));
+});
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Inventory.Models.TblLogin, Inventory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Models.Models.TblLogin, Common.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "tblLogin",
-        "Type": "Inventory.Models.TblLogin",
+        "Type": "Common.Models.Models.TblLogin",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Inventory.Models.TblLogin",
+        "Type": "Common.Models.Models.TblLogin",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Inventory.Models.TblLogin",
+        "Type": "Common.Models.Models.TblLogin",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,7 +86,7 @@
       },
       {
         "Name": "tblLogin",
-        "Type": "Inventory.Models.TblLogin",
+        "Type": "Common.Models.Models.TblLogin",
         "IsRequired": true
       }
     ],
@@ -134,7 +134,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Inventory.Models.TblProduct, Inventory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Models.Models.TblProduct, Common.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -154,13 +154,13 @@
     "Parameters": [
       {
         "Name": "tblProduct",
-        "Type": "Inventory.Models.TblProduct",
+        "Type": "Common.Models.Models.TblProduct",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Inventory.Models.TblProduct",
+        "Type": "Common.Models.Models.TblProduct",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -186,7 +186,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Inventory.Models.TblProduct",
+        "Type": "Common.Models.Models.TblProduct",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -211,7 +211,7 @@
       },
       {
         "Name": "tblProduct",
-        "Type": "Inventory.Models.TblProduct",
+        "Type": "Common.Models.Models.TblProduct",
         "IsRequired": true
       }
     ],
