@@ -6,15 +6,30 @@
       "DownstreamScheme": "https",
       "ServiceName": "OrderService",
       "UpstreamPathTemplate": "/api/gateway/order/get-orders",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
     },
     {
       "UseServiceDiscovery": true,
-      "DownstreamPathTemplate": "/api/Products",
+      "DownstreamPathTemplate": "/api/v1.0/eshopping/Products",
       "DownstreamScheme": "https",
       "ServiceName": "InventoryService",
       "UpstreamPathTemplate": "/api/gateway/catalog/get-products",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AllowedScopes": ["api.read","api.write"],
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Login/get-token",
+      "DownstreamScheme": "https",
+      "ServiceName": "LoginService",
+      "UpstreamPathTemplate": "/api/gateway/login/get-token",
+      "UpstreamHttpMethod": [ "Post" ]
     }
   ],
   "GlobalConfiguration": {

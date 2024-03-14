@@ -45,3 +45,13 @@ C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Ocelot_old.json
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Consul.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Ocelot.Provider.Consul.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\ApiGateway\bin\Debug\net6.0\IdentityServer4.AccessTokenValidation.dll

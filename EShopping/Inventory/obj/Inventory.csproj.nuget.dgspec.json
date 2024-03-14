@@ -218,6 +218,10 @@
               "target": "Package",
               "version": "[1.7.14.3, )"
             },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "MassTransit": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -225,10 +229,6 @@
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[8.0.13, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.27, )"
             },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",

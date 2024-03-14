@@ -13,7 +13,7 @@ namespace Order.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class OrdersController : ControllerBase
     {
         private readonly EshoppingContext _context;

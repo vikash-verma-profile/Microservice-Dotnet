@@ -1,19 +1,12 @@
 using Common.Consul;
 using Common.Models.Models;
 using Inventory.Consumer;
-using Inventory.Interface;
-using Inventory.Repositories;
 using MassTransit;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Configuration;
-using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,7 +52,6 @@ builder.Services.AddDbContext<EshoppingContext>(x =>
 {
     x.UseSqlServer(builder.Configuration.GetConnectionString("eshoppingdbconnection")); ;
 });
-builder.Services.AddTransient<IJWTManagerRepository, JwtManagerRepository>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme()
@@ -86,24 +78,30 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-builder.Services.AddAuthentication(x =>
+//builder.Services.AddAuthentication(x =>
+//{
+//    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+//    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+//}).AddJwtBearer(o =>
+//{
+//    var key = Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"]); // add config from appsettings
+//    o.SaveToken = true;
+//    o.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+//    {
+//        ValidateAudience = false,
+//        ValidateIssuer = false,
+//        ValidateLifetime = true,
+//        ValidateIssuerSigningKey = true,
+//        ValidIssuer = builder.Configuration["JWT:Issuer"],
+//        ValidAudience = builder.Configuration["JWT:Audience"],
+//        IssuerSigningKey = new SymmetricSecurityKey(key)
+//    };
+//});
+
+builder.Services.AddAuthentication("Bearer").AddIdentityServerAuthentication("Bearer", options =>
 {
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(o =>
-{
-    var key = Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"]); // add config from appsettings
-    o.SaveToken = true;
-    o.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-    {
-        ValidateAudience = false,
-        ValidateIssuer = false,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["JWT:Issuer"],
-        ValidAudience = builder.Configuration["JWT:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(key)
-    };
+    options.ApiName = "inventory";
+    options.Authority = "https://localhost:44395";
 });
 builder.Services.AddConsulConfig(builder.Configuration);
 var app = builder.Build();

@@ -5,8 +5,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Order.Interface;
-using Order.Repositories;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,7 +29,6 @@ builder.Services.AddDbContext<EshoppingContext>(x =>
 {
     x.UseSqlServer(builder.Configuration.GetConnectionString("eshoppingdbconnection")); ;
 });
-builder.Services.AddTransient<IJWTManagerRepository, JwtManagerRepository>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme()

@@ -14,9 +14,9 @@ namespace Inventory.Controllers
     [ApiVersion("1.0")]
     [ApiVersion("1.1",Deprecated =true)]
     [ApiVersion("2.0")]
-    [Route("api/eshopping/[controller]",Order =2)]
+    //[Route("api/eshopping/[controller]",Order =2)]
     [Route("api/v{version:apiVersion}/eshopping/[controller]",Order = 1)]
-    //[Authorize]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly EshoppingContext _context;

@@ -34,7 +34,7 @@ https://localhost:44381/
 
 OrderAPI=>https://localhost:44311/swagger/index.html
 Inventory API=>https://localhost:44327/swagger/index.html
-
+Login API=>https://localhost:44306/swagger/index.html
 
 
 download consul https://www.consul.io/
