@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/OA/kE04srbPUdOh19DQFlrSvAsmF9grz9d84v0T8Sp4eD9GcuZJwUzMLi47RL1xnDxdKqDHw2RFauPI2LO4KQ==",
+  "dgSpecHash": "UUkVVonEH4ewzYjX8EVe+5qLoAxX2BopuvIIhx8RcdTxx40OmejVtoicLKRHC32LLDan95NDkU/QkhGGmgDqjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\Inventory.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,8 @@
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

@@ -5,8 +5,11 @@ using Inventory.Interface;
 using Inventory.Repositories;
 using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Configuration;
@@ -14,7 +17,24 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddApiVersioning(x => {
+    x.AssumeDefaultVersionWhenUnspecified = true;
+    x.DefaultApiVersion = new ApiVersion(1, 0);
+    x.ReportApiVersions=true;
+    x.ApiVersionReader = ApiVersionReader.Combine(
+        new QueryStringApiVersionReader("api-version"),
+         new HeaderApiVersionReader("x-api-version"),
+          new MediaTypeApiVersionReader("ver")
+        //new UrlSegmentApiVersionReader()
+        );
+});
+//builder.Services.AddVersionedApiExplorer(x =>
+//{
+//    x.GroupNameFormat = "'v'VVV";
+//    x.SubstituteApiVersionInUrl = true;
+//});
 // Add services to the container.
+
 builder.Services.AddMassTransit(x =>
 {
     x.AddConsumer<OrderConsumer>();

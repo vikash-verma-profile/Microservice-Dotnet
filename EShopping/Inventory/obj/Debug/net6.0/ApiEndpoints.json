@@ -1,5 +1,114 @@
 [
   {
+    "ContainingType": "Inventory.Controllers.ProductsController",
+    "Method": "GetTblProducts",
+    "RelativePath": "api/eshopping/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 2,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Models.Models.TblProduct, Common.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Inventory.Controllers.ProductsController",
+    "Method": "PostTblProduct",
+    "RelativePath": "api/eshopping/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 2,
+    "Parameters": [
+      {
+        "Name": "tblProduct",
+        "Type": "Common.Models.Models.TblProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Models.Models.TblProduct",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Inventory.Controllers.ProductsController",
+    "Method": "GetTblProduct",
+    "RelativePath": "api/eshopping/Products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 2,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Models.Models.TblProduct",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Inventory.Controllers.ProductsController",
+    "Method": "PutTblProduct",
+    "RelativePath": "api/eshopping/Products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 2,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tblProduct",
+        "Type": "Common.Models.Models.TblProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventory.Controllers.ProductsController",
+    "Method": "DeleteTblProduct",
+    "RelativePath": "api/eshopping/Products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 2,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Inventory.Controllers.LoginController",
     "Method": "GetTblLogins",
     "RelativePath": "api/Login",
@@ -127,11 +236,17 @@
   {
     "ContainingType": "Inventory.Controllers.ProductsController",
     "Method": "GetTblProducts",
-    "RelativePath": "api/Products",
+    "RelativePath": "api/v{version}/eshopping/Products",
     "HttpMethod": "GET",
     "IsController": true,
-    "Order": 0,
-    "Parameters": [],
+    "Order": 1,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Models.Models.TblProduct, Common.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -147,14 +262,19 @@
   {
     "ContainingType": "Inventory.Controllers.ProductsController",
     "Method": "PostTblProduct",
-    "RelativePath": "api/Products",
+    "RelativePath": "api/v{version}/eshopping/Products",
     "HttpMethod": "POST",
     "IsController": true,
-    "Order": 0,
+    "Order": 1,
     "Parameters": [
       {
         "Name": "tblProduct",
         "Type": "Common.Models.Models.TblProduct",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -173,14 +293,19 @@
   {
     "ContainingType": "Inventory.Controllers.ProductsController",
     "Method": "GetTblProduct",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v{version}/eshopping/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
-    "Order": 0,
+    "Order": 1,
     "Parameters": [
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -199,10 +324,10 @@
   {
     "ContainingType": "Inventory.Controllers.ProductsController",
     "Method": "PutTblProduct",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v{version}/eshopping/Products/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
-    "Order": 0,
+    "Order": 1,
     "Parameters": [
       {
         "Name": "id",
@@ -213,6 +338,11 @@
         "Name": "tblProduct",
         "Type": "Common.Models.Models.TblProduct",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -220,14 +350,19 @@
   {
     "ContainingType": "Inventory.Controllers.ProductsController",
     "Method": "DeleteTblProduct",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v{version}/eshopping/Products/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
-    "Order": 0,
+    "Order": 1,
     "Parameters": [
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],

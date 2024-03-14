@@ -294,3 +294,5 @@ C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\b
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Common.Consul.dll
 C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Common.Consul.pdb
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping\Inventory\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

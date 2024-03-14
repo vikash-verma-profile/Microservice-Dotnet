@@ -45,11 +45,16 @@ consul agent -dev
 
 url for consul http://localhost:8500/ui/dc1/services
 
+
+https://localhost:44327/api/Products?api-version=1.0
+
 Parked Question
 
 Question-1
 Send a message from publisher and stop rabbitmq serivice and see if the message still persists or not
 send a message from publisher and second  service is down . WIll the message be read.
 Consumer should be 2 in above senerio's
+
+Add Aggregator==>in architecture
 
  
