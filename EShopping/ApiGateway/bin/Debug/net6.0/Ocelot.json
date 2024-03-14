@@ -9,6 +9,13 @@
       "UpstreamHttpMethod": [ "Get" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer"
+      },
+      "RateLimitOptions": {
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 5,
+        "Limit": 2,
+        "ClientIdHeader": "Test"
       }
     },
     {
@@ -18,8 +25,18 @@
       "ServiceName": "InventoryService",
       "UpstreamPathTemplate": "/api/gateway/catalog/get-products",
       "UpstreamHttpMethod": [ "Get" ],
+      "UpStreamHeaderTransform": {
+        "ClientId": "MyClient"
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [ "MyClient" ],
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 5,
+        "Limit": 1
+      },
       "AuthenticationOptions": {
-        "AllowedScopes": ["api.read","api.write"],
+        "AllowedScopes": [ "api.read", "api.write" ],
         "AuthenticationProviderKey": "Bearer"
       }
     },

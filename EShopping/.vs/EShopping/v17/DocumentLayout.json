@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BCB00FD8-8604-4F78-8627-694AD52BACB0}|IdentityServer\\IdentityServer.csproj|c:\\users\\level up solutions 1\\desktop\\dotnet-microservices\\eshopping\\identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCB00FD8-8604-4F78-8627-694AD52BACB0}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2029F816-B052-4FA7-BBA1-51206E6DEBA5}|Inventory\\Inventory.csproj|c:\\users\\level up solutions 1\\desktop\\dotnet-microservices\\eshopping\\inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2029F816-B052-4FA7-BBA1-51206E6DEBA5}|Inventory\\Inventory.csproj|solutionrelative:inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\IdentityServer\\Config.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Config.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\IdentityServer\\Config.cs",
-              "RelativeToolTip": "IdentityServer\\Config.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAD8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T10:42:25.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\Program.cs",
-              "RelativeDocumentMoniker": "Inventory\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\EShopping\\Inventory\\Program.cs",
-              "RelativeToolTip": "Inventory\\Program.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T10:41:53.063Z",
-              "EditorCaption": ""
             }
           ]
         }

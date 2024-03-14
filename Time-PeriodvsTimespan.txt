@@ -1,0 +1,4 @@
+Period==>1
+PeriodTimeSpan=00:01:00==>1 minute
+
+the rate limit is 1 of time(requests) per minute
