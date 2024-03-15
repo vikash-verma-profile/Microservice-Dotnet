@@ -1,0 +1,99 @@
+name: dockercompose47041385570144192
+services:
+  apigateway:
+    build:
+      context: C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping
+      dockerfile: ApiGateways/ApiGateway/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: apigateway
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Level Up Solutions 1\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Level Up Solutions 1\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  consul:
+    image: consul:1.15.4
+    networks:
+      default: null
+  inventory.api:
+    build:
+      context: C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping
+      dockerfile: Services/Inventory/Dockerfile
+    image: inventory
+    networks:
+      default: null
+  inventorydb:
+    environment:
+      ACCEPT_EULA: "1"
+      MSSQL_SA_PASSWORD: Mindz@007
+    hostname: inventorydb
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "5510"
+        protocol: tcp
+  login.api:
+    build:
+      context: C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping
+      dockerfile: Services/LoginApi/Dockerfile
+    image: login
+    networks:
+      default: null
+  logindb:
+    environment:
+      ACCEPT_EULA: "1"
+      MSSQL_SA_PASSWORD: Mindz@007
+    hostname: logindb
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "5512"
+        protocol: tcp
+  order.api:
+    build:
+      context: C:\Users\Level Up Solutions 1\Desktop\Dotnet-Microservices\EShopping
+      dockerfile: Services/Order/Dockerfile
+    image: order
+    networks:
+      default: null
+  orderdb:
+    environment:
+      ACCEPT_EULA: "1"
+      MSSQL_SA_PASSWORD: Mindz@007
+    hostname: orderdb
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "5511"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose47041385570144192_default

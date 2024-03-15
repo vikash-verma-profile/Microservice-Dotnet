@@ -1,0 +1,90 @@
+version: '3.4'
+
+services:
+   consul:
+    image: consul:1.15.4
+    container_name: consul
+    ports:
+     - "8500:8500"
+     - "8600:8600/tcp"
+     - "8600:8600/udp"
+    command: "agent -server -bootstrap-expect=1 -ui -client=0.0.0.0"
+   inventory_db:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: inventory_db
+    hostname: inventorydb
+    environment:
+        MSSQL_SA_PASSWORD: "Mindz@007"
+        ACCEPT_EULA: 1
+    ports:
+        - "5510:1433"
+   orderdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    hostname: orderdb
+    container_name: orderdb
+    environment:
+        MSSQL_SA_PASSWORD: "Mindz@007"
+        ACCEPT_EULA: 1
+    ports:
+        - "5511:1433"
+   logindb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    hostname: logindb
+    container_name: logindb
+    environment:
+        MSSQL_SA_PASSWORD: "Mindz@007"
+        ACCEPT_EULA: 1
+    ports:
+        - "5512:1433"
+   inventory.api:
+    image:  ${DOCKER_REGISTRY-}inventory
+    container_name: inventory.api
+    ports:
+    - "44326:80"
+    - "44327:443" 
+    depends_on: 
+        - consul
+    build:
+        context: .
+        dockerfile: Services/Inventory/Dockerfile
+   order.api:
+    image:  ${DOCKER_REGISTRY-}order
+    container_name: order.api
+    depends_on: 
+        - consul
+        - orderdb
+    build:
+        context: .
+        dockerfile: Services/Order/Dockerfile
+   login.api:
+    image:  ${DOCKER_REGISTRY-}login
+    container_name: login.api
+    depends_on: 
+        - consul
+        - logindb
+    build:
+        context: .
+        dockerfile: Services/LoginApi/Dockerfile
+   basket.api:
+    image:  ${DOCKER_REGISTRY-}basketapi
+    container_name: basket.api
+    ports:
+    - "44328:80"
+    - "44329:443"
+    depends_on: 
+        - consul
+    build:
+        context: .
+        dockerfile: Services/Basket.Api/Dockerfile
+   apigateway:
+    image: ${DOCKER_REGISTRY-}apigateway
+    container_name: apigateway
+    ports:
+    - "5500:80"
+    - "5501:443" 
+    depends_on: 
+        - consul
+    build:
+      context: .
+      dockerfile: ApiGateways/ApiGateway/Dockerfile
+
