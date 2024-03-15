@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[23.1.0, )"
             },
+            "Ocelot.Cache.CacheManager": {
+              "target": "Package",
+              "version": "[23.1.0, )"
+            },
             "Ocelot.Provider.Consul": {
               "target": "Package",
               "version": "[23.1.0, )"

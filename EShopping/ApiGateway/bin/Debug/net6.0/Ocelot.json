@@ -7,16 +7,20 @@
       "ServiceName": "OrderService",
       "UpstreamPathTemplate": "/api/gateway/order/get-orders",
       "UpstreamHttpMethod": [ "Get" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      },
-      "RateLimitOptions": {
-        "EnableRateLimiting": true,
-        "Period": "5s",
-        "PeriodTimespan": 5,
-        "Limit": 2,
-        "ClientIdHeader": "Test"
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer"
+      //},
+      "FileCacheOptions": {
+        "TtlSeconds": 10,
+        "Region": "europe-central"
       }
+      //"RateLimitOptions": {
+      //  "EnableRateLimiting": true,
+      //  "Period": "5s",
+      //  "PeriodTimespan": 5,
+      //  "Limit": 2,
+      //  "ClientIdHeader": "Test"
+      //}
     },
     {
       "UseServiceDiscovery": true,
@@ -34,11 +38,11 @@
         "Period": "5s",
         "PeriodTimespan": 5,
         "Limit": 1
-      },
-      "AuthenticationOptions": {
-        "AllowedScopes": [ "api.read", "api.write" ],
-        "AuthenticationProviderKey": "Bearer"
       }
+      //"AuthenticationOptions": {
+      //  "AllowedScopes": [ "api.read", "api.write" ],
+      //  "AuthenticationProviderKey": "Bearer"
+      //}
     },
     {
       "UseServiceDiscovery": true,

@@ -1,18 +1,20 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Ocelot.Cache.CacheManager;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Provider.Consul;
 
 IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("Ocelot.json").Build();
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddOcelot(configuration).AddConsul();
+
+builder.Services.AddOcelot(configuration).AddCacheManager(x => x.WithDictionaryHandle()).AddConsul();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddAuthentication("Bearer").AddIdentityServerAuthentication("Bearer", options =>
-{
-    options.Authority = "https://localhost:44395";
-});
+//builder.Services.AddAuthentication("Bearer").AddIdentityServerAuthentication("Bearer", options =>
+//{
+//    options.Authority = "https://localhost:44395";
+//});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
