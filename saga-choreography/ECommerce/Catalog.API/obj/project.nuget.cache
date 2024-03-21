@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PBPlsdyCrbvAcK1YlP/wC5rCebfWwFMMdX9jDdNXFlAcrLMRn5F56HyQXdRyJ7l2zIhTAHPKhejTmZI6gh6qmA==",
+  "dgSpecHash": "1lBM/+7xzx6IXSX3Qi8vVtJDSTLmCnCsYEqlNOUP3lLPwrV0DcOHWtYzWWkE7auob+4rmtoNgIUo/1ej50VZpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\saga-choreography\\ECommerce\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9e+Yo5PmEeGaJ9r2Dxclx1xklAoVUBAAbGpWZPxXYIOiALMD7MLll8xg2LAe++UEPCCA/KfTBUgkBlm/G/gFlQ==",
+  "dgSpecHash": "cfjZ5uef3BIk/P+3V6XwSRhYdgQ7b8i010qDuxe9XR1nCFw6XZq1hBbClkmMKp5Vom4Q5HtcsEXzh5+JOO45fQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\saga-choreography\\ECommerce\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

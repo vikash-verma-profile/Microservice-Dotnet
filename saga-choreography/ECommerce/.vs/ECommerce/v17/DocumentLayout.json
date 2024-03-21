@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1301D1-725B-4ADD-9D07-09E4B0536BA8}|Ordering.API\\Ordering.API.csproj|c:\\users\\level up solutions 1\\desktop\\demos\\sega-c\\saga-choreography\\ecommerce\\ordering.api\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1301D1-725B-4ADD-9D07-09E4B0536BA8}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B94D957C-88C8-43DF-9012-8BFFFF422E9D}|Catalog.API\\Catalog.API.csproj|c:\\users\\level up solutions 1\\desktop\\demos\\sega-c\\saga-choreography\\ecommerce\\catalog.api\\controllers\\catalogitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B94D957C-88C8-43DF-9012-8BFFFF422E9D}|Catalog.API\\Catalog.API.csproj|solutionrelative:catalog.api\\controllers\\catalogitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\saga-choreography\\ECommerce\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Ordering.API\\Controllers\\OrderItemsController.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\Controllers\\OrderItemsController.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Ordering.API\\Controllers\\OrderItemsController.cs",
-              "RelativeToolTip": "Ordering.API\\Controllers\\OrderItemsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T06:21:44.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CatalogItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Catalog.API\\Controllers\\CatalogItemsController.cs",
-              "RelativeDocumentMoniker": "Catalog.API\\Controllers\\CatalogItemsController.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Catalog.API\\Controllers\\CatalogItemsController.cs",
-              "RelativeToolTip": "Catalog.API\\Controllers\\CatalogItemsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T06:21:33.852Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Shared\\Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\saga-choreography\\ECommerce\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Shared\\Shared.csproj",
+      "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\saga-choreography\\ECommerce\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\demos\\SEGA-C\\saga-choreography\\ECommerce\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\saga-choreography\\ECommerce\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
