@@ -34,7 +34,7 @@ https://localhost:44381/
 
 OrderAPI=>https://localhost:44311/swagger/index.html
 Inventory API=>https://localhost:44327/swagger/index.html
-
+Login API=>https://localhost:44306/swagger/index.html
 
 
 download consul https://www.consul.io/
@@ -45,6 +45,9 @@ consul agent -dev
 
 url for consul http://localhost:8500/ui/dc1/services
 
+
+https://localhost:44327/api/Products?api-version=1.0
+
 Parked Question
 
 Question-1
@@ -52,4 +55,11 @@ Send a message from publisher and stop rabbitmq serivice and see if the message 
 send a message from publisher and second  service is down . WIll the message be read.
 Consumer should be 2 in above senerio's
 
- 
+Add Aggregator==>in architecture
+
+
+
+https://localhost:7212/WeatherForecast
+
+
+https://localhost:44327/test
