@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PiOBTk5fily78X51iy/SUUkK6EuykIe6GjSBXfRU8X3vgU8hMKS3E3q7lBgvr0Uwm6ErEWVcM3TEmLcNhFjdMQ==",
+  "dgSpecHash": "OrHKOarm6+hubbeWRVypJXpZRSd60bl45g6Dkep5kziH6Tnib+Tpa2GWksmV+/SvX50LIoO4Tbn7Um3vaY/aNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

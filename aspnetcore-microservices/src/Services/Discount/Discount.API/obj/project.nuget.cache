@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dqwtjbGx6srLT9y25GPyqNAykoQJsXi2BnZXoClToQbsCcDRl/fTEypedx+WU1DWGnCZVfxy3tf3E1AXdXLD4g==",
+  "dgSpecHash": "ZtvUFiUcdQhwf7O8CSkTPi5HXUpMZFsEKGLvYtzj2KQ2Ej77zxOF2RCf8XRuPITFgv5muVBOMekGeCrm7eygpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Discount\\Discount.API\\Discount.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\5.0.1\\aspnetcore.healthchecks.npgsql.5.0.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\5.0.1\\aspnetcore.healthchecks.ui.client.5.0.1.nupkg.sha512",

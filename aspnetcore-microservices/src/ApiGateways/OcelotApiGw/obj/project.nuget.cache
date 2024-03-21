@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5idlf2PBdikXXQ3fjyk4tTIRUj5tnKzASK4x28x+k/uqIY6DJN30l5v6jTtKAAAxGe1tWuUN0bfdsX08RnOLtw==",
+  "dgSpecHash": "gTC+UZdLsNkswm4KGpQx7RAh16OrG10BBP1joEl/ya8IZUMm6BwebNWJhFG04K6BJxZJ8QhRW+M8izTNOGrZEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\cachemanager.core\\2.0.0-beta-1629\\cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\cachemanager.microsoft.extensions.configuration\\2.0.0-beta-1629\\cachemanager.microsoft.extensions.configuration.2.0.0-beta-1629.nupkg.sha512",

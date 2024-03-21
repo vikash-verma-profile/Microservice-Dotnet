@@ -8368,11 +8368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "projectName": "Basket.API",
-      "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\obj\\",
+      "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8389,11 +8389,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-              "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+            "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+              "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             },
-            "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
-              "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+            "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+              "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
             }
           }
         }

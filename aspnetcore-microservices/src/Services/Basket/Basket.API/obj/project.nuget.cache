@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Erl3ZjeORqMMrv3XeSa7pACCXYw10b8XaWn0/VWXOGwL1QOwajJQCpmYta44rw7ob+WZglJZSjBQxdP26wr81w==",
+  "dgSpecHash": "WVGhtMwlFxUD4RkXuaue7cNFvxQ8j4CIJJP/hI3FOGQ2sdiM18ogRyRMPmop3dfiIhG6FIlKRZesINLX+1e/qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.redis\\5.0.1\\aspnetcore.healthchecks.redis.5.0.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\5.0.1\\aspnetcore.healthchecks.ui.client.5.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m06vnd+8H/q03wX9YAu7oQaVepPiF/mJjQgMsNWkbzbxMb3yiEL0+UPRUqax3UsAQYNK3CSRj9xhJIX6bU2CMQ==",
+  "dgSpecHash": "TeZz+SuoXG5C85CJ2hc7FdAAXLDbsSCm1QxS3E4vfsPTXEhdPIs8fQH9v6FdyMjlWSL8K17UJeCeC00dc745Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.UnitTests\\Basket.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Basket\\Basket.UnitTests\\Basket.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",

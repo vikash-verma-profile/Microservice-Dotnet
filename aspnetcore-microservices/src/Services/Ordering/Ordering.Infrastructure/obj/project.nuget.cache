@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ealpo3TP5fpTMg6nzqkyY/G98kJmnldIMrrKfQKJqHXXDF+xkyDoclOF1raEQrAPJ/QnMWWP3oVq4NieS4am3g==",
+  "dgSpecHash": "YEdC7wMMgAObe8U4YHGZfO5/bZ/2SogaSt8xT9IsdEgPqfGVmpQmVVCi9gYd9ndWufxuPgm0bFda5KS8S/MKtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

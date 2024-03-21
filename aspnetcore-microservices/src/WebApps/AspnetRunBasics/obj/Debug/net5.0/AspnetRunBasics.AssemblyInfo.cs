@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspnetRunBasics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05c492b054215f3f48eff88b48ff292627202096")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspnetRunBasics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspnetRunBasics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

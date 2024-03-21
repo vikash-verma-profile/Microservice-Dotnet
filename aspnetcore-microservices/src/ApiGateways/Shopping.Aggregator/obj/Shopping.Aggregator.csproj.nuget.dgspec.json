@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj": {}
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj": {
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj",
+        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj",
         "projectName": "Shopping.Aggregator",
-        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj",
+        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj",
         "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\obj\\",
+        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",

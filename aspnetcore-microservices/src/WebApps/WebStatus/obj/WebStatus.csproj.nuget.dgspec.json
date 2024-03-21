@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj": {}
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj": {
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj",
+        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj",
         "projectName": "WebStatus",
-        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj",
+        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\WebStatus.csproj",
         "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\obj\\",
+        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\WebApps\\WebStatus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",

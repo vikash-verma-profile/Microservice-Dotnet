@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GhTPAtgTe2x7BcwE19qIAILHqsVI6WrAMZShHdGwl6UnlD02fhDhseYXNo1FhwYjmTm3/Wbdq/VBp0JAF9IsFA==",
+  "dgSpecHash": "ErvZebKzlxgdHUlBkuqIpeo9637BEeKpI3I53dO53WM6AqbXLyrCtvWeZ0QbxvIAL7IofRBiJtwzGEICQYFQcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\ApiGateways\\Shopping.Aggregator\\Shopping.Aggregator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\5.0.1\\aspnetcore.healthchecks.ui.client.5.0.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\5.0.1\\aspnetcore.healthchecks.ui.core.5.0.1.nupkg.sha512",

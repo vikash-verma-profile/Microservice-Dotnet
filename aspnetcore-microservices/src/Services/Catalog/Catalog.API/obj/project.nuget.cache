@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C6qOLUL/K/ypmXGZIbi6bX5PpUuXePMNMTRZ9nS/r1PguSp7rML1uzpEE2zzyWeKxJ0ttaPoT4wxpY5lsc9QMA==",
+  "dgSpecHash": "fFmYc2O1TN9ubZOqTie4YDiVnCNioOpE20Rf7ywcRdvQzvrPsMJOUkdFXzketvBCoi1j/qGeQyt9v47Il94ogA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\aspnetcore-microservices\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\Dotnet-Microservices\\aspnetcore-microservices\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\5.0.1\\aspnetcore.healthchecks.mongodb.5.0.1.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\5.0.1\\aspnetcore.healthchecks.ui.client.5.0.1.nupkg.sha512",
